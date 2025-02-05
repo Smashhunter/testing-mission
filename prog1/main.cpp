@@ -90,7 +90,7 @@ void processingThread() {
         data_ready = false;
 
         int sum = lib::calculateSum(data);
-        //std::cout << "Обработанные данные: " << data << "\nСумма: " << sum << std::endl;
+        std::cout << "Обработанные данные: " << data << "\nСумма: " << sum << std::endl;
 
         lock.unlock();
 
