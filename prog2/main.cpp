@@ -1,4 +1,4 @@
-// program2/main.cpp
+// prog2/main.cpp
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -11,6 +11,7 @@
 #define PORT 8080
 #define BUFFER_SIZE 1024
 
+//proceeds recived information from client
 void handleClient(int clientSocket) {
     char buffer[BUFFER_SIZE] = {0};
     ssize_t bytesRead = read(clientSocket, buffer, BUFFER_SIZE);

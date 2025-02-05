@@ -1,4 +1,4 @@
-// program1/main.cpp
+// prog1/main.cpp
 #include <iostream>
 #include <string>
 #include <thread>
