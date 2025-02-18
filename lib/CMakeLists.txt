@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8) # Проверка версии CMake.
+cmake_minimum_required(VERSION 3.10) # Проверка версии CMake.
 									# Если версия установленной программы
 									# старее указаной, произойдёт аварийный выход.
 
